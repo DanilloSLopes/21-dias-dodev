@@ -1,0 +1,24 @@
+no prompt - 
+cls limpa a tela do prompt
+
+git - é uma ferramenta usada para compartilhar um repositório (banco de dados) de codigos. 
+Git é super importante para o compartilhamento do codigo com a equipe da empresa e para que não se perca os históricos das mudanças feitas pelas pessoas que mexeram nos códigos. Ele grava as mudanças feitas no codigo durante o tempo em um banco de dados chamado repositório, se acontecer algo inesperado podemos voltar para uma versão antiga e ter acesso a uam versão antiga do codigo
+
+
+github - é a plataforma, como se fosse a rede social para que as pessoas tenham acesso aos seus codigos, existem outros tipos de plataformas para subir os codigos por git, voce pode compartilhar caso queira com outras pessoas os seu codigos para que possam ver e/ou ter acesso.
+
+- precisamos instalar o git na maquina de acordo com seu sistema orepacinal - só jogar no google
+
+- após a instalação abre o CMD e testa se foi instalado digitando git
+
+-configuração inicial do git - no CMD digita: git config --global user.name "nome do cidadão" - enter
+no CMD digita: git config --global user.email email do cidadão - enter
+
+- precisa especificar o computador no github(plataforma) que enviará os arquivos para o repositório
+entramos no perfil do github - settings - SSH and GPG keys
+precisamos gerar uma chave SSH
+comando - ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+pega esse comando e coloca no CMD - enter 
+da enter até gerar a chave. A chave vai ser gerado no seu computador e terá no CMD o caminho dizendo aonde ela esta. Segue o caminho e pegue a chave pub. (publica), abre como bloco de notas, copia o conteudo e vai até o github e cola em SSH keys. Com isso o computador esta autorizado a subir arquivos para o github
+
+
